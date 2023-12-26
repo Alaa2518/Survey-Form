@@ -1,0 +1,137 @@
+body{
+    width : 1340px;
+    height: 1900px;
+}
+
+header {
+     position: fixed;
+     overflow:hidden;
+     height: 83px;
+     width:100%;
+     background-color: #1e1f26;
+}
+.Lheader{
+    color: #fff;
+    float: left;
+    height: 100%;
+    width: 50%;
+
+}
+.Lheader .image { float: left;width: 7%;height: 100%;margin: 20px;margin-left: 0px;margin-right: 0px;}
+.Lheader img{ width: 30px;height: 30px;}
+.Lheader .header-linke {
+      float: left;
+      color: #fff;
+      height: 100%;
+      width: 60%;
+      overflow: hidden;
+}
+.Lheader .header-linke h1 {
+         color: #fff;
+         margin: 2px;
+         font-size: 35px;
+         margin: 5px;
+         margin-left: 0px;
+}
+.Lheader .header-linke a {
+         color: #6b6666;
+         text-decoration: none;
+         margin: 5px;
+         margin-left: 0px;
+         font-size: 20px;
+}
+.Lheader .header-linke a:hover {
+         color: #fff;
+         text-decoration: none;
+         margin: 5px;
+         margin-left: 0px;
+         font-size: 20px;
+}
+
+/* */
+.Rheader{
+    color: #fff;
+    float: right;
+}
+.like{
+  width: 70px;
+  height: 50px;
+  background-color: #1e1f26;
+  border: 4px solid #7c7b82cf;
+  border-radius: 5px;
+  margin: 15px;
+  }
+.login{
+  width: 70px;
+  height: 50px;
+  background-color: #444857;
+  border: 4px solid #444857;
+  border-radius: 5px;
+  margin: 15px;
+    }
+.change{
+  width: 150px;
+  height: 50px;
+  background-color: #444857;
+  border: 4px solid #444857;
+  border-radius: 5px;
+  margin: 15px;
+      }
+.sinup{
+      width: 100px;
+      height: 50px;
+      color: #000;
+      background-color: #5dd644;
+      border: 4px solid #5dd644;
+      border-radius: 5px;
+      margin: 15px;
+}
+
+.BODY{
+  width : 100%;
+  height: 100%;
+  background-color: #583bde99;
+  opacity: 2.5;
+}
+/* start form */
+.contener{
+  text-align: center;
+  width: 100%;
+  height: 100%;
+
+
+}
+.form {
+     text-align: left;
+     background-color: #793ab766;
+     border: 4px solid #793ab766;
+    /*  opacity: 0.9;*/
+     overflow: visible;
+      width:60%;
+      margin-left: 20%;
+}
+button, input, select ,textarea {
+      margin: 20px 0px 20px 20px ;
+
+}
+input[type="text"], input[type="number"],input[type="textarea"],button,select ,textarea{
+    width: 750px;
+    height: 40px;
+    border-radius: 5px;
+}
+textarea {
+  height: 120px;
+}
+label {
+  margin-left: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+button {
+    color: #fff;
+    font-size: 20px;
+    background-color: #12b112;
+    border: 4px solid #12b112;
+}
+
+/*end form */
